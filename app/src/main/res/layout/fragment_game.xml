@@ -5,11 +5,13 @@
     android:layout_height="match_parent"
     android:background="@drawable/background"
     android:orientation="vertical"
+    android:padding="15dp"
     tools:context=".GameFragment">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
         android:gravity="center_horizontal">
 
         <ImageView
@@ -70,4 +72,16 @@
         android:layout_gravity="end"
         android:layout_margin="15dp"
         android:src="@drawable/lam" />
+
+    <TextView
+        android:id="@+id/change_level"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:paddingTop="80dp"
+        android:text="Level Number"
+        android:textColor="@color/white" />
+
+
 </LinearLayout>

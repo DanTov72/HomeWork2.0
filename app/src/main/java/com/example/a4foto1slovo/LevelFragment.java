@@ -38,6 +38,7 @@ public class LevelFragment extends Fragment {
                 bundle.putString("fourImage", "https://total.kz/storage/ba/ba0acb96dcad8b65792c9ea04640e75a_resize_w_830_h_465.jpg");
                 bundle.putString("answer", "коса");
                 bundle.putString("prompt", "то чем косят косят траву");
+                bundle.putString("changeLevel","1 level");
                 GameFragment gameFragment = new GameFragment();
                 gameFragment.setArguments(bundle);
 
@@ -56,6 +57,7 @@ public class LevelFragment extends Fragment {
                 bundle.putString("fourImage", "https://s1.1zoom.ru/big3/220/Stars_Sky_Night_446830.jpg");
                 bundle.putString("answer", "луна");
                 bundle.putString("prompt", "то что на небе ночью");
+                bundle.putString("changeLevel","2 level");
                 GameFragment gameFragment = new GameFragment();
                 gameFragment.setArguments(bundle);
 
@@ -74,6 +76,7 @@ public class LevelFragment extends Fragment {
                 bundle.putString("fourImage", "https://multikidlyadetei.ru/wp-content/uploads/2020/03/siniy-traktor-siniy-traktor-most.jpg");
                 bundle.putString("answer", "синий");
                 bundle.putString("prompt", "какой-то холодный цвет");
+                bundle.putString("changeLevel","3 level");
                 GameFragment gameFragment = new GameFragment();
                 gameFragment.setArguments(bundle);
 

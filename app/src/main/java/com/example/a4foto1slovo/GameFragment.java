@@ -40,7 +40,7 @@ public class GameFragment extends Fragment {
         prompt = getArguments().getString("prompt");
         showLevel = getArguments().getString("changeLevel");
 
-        binding.changeLevel.setText(showLevel);
+        binding.showLevel.setText(showLevel);
 
         Glide.with(requireView()).load(firstImage).into(binding.ivFirstImage);
         Glide.with(requireView()).load(secondImage).into(binding.ivSecondImage);

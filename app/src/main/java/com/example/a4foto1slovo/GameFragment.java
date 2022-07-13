@@ -19,7 +19,7 @@ import com.example.a4foto1slovo.databinding.FragmentGameBinding;
 public class GameFragment extends Fragment {
 
     FragmentGameBinding binding;
-    String firstImage, secondImage, thirdImage, fourImage, answer, prompt, changeLevel;
+    String firstImage, secondImage, thirdImage, fourImage, answer, prompt, showLevel;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -38,9 +38,9 @@ public class GameFragment extends Fragment {
         fourImage = getArguments().getString("fourImage");
         answer = getArguments().getString("answer");
         prompt = getArguments().getString("prompt");
-        changeLevel = getArguments().getString("changeLevel");
+        showLevel = getArguments().getString("changeLevel");
 
-        binding.changeLevel.setText(changeLevel);
+        binding.changeLevel.setText(showLevel);
 
         Glide.with(requireView()).load(firstImage).into(binding.ivFirstImage);
         Glide.with(requireView()).load(secondImage).into(binding.ivSecondImage);

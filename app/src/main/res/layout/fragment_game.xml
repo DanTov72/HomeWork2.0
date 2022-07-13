@@ -74,12 +74,12 @@
         android:src="@drawable/lam" />
 
     <TextView
-        android:id="@+id/change_level"
+        android:id="@+id/show_level"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="5dp"
-        android:paddingTop="80dp"
+        android:paddingTop="81dp"
         android:text="Level Number"
         android:textColor="@color/white" />
 
